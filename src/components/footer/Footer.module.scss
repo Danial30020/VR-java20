@@ -1,0 +1,95 @@
+.footer{ 
+    background-color: #000;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+.footerContainer{
+  width: 1282px;
+ 
+.footerPages{
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  
+  .footerTitle{
+    color: #FFF;
+  margin-bottom: 45px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  }
+  .footerSubtitle{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  .footerSubtitle li{
+    color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  
+  }
+  }
+}
+
+
+
+.footerInfo{
+  display: flex;
+  justify-content: space-between;
+margin: 130px 0px;
+box-sizing: border-box;
+}
+
+
+.footerContacts{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  .footerContacts button{
+    padding: 32px 80px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: white;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    }
+    .footerSocial{
+        color: #FFF;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      border-bottom: 1px solid white;
+      display: flex;
+      align-items: center;
+      .footerSocial img{
+        margin-left: 20px;
+      }
+      .footerSocial span{
+        margin-right: 50px;
+      }
+      .buttonHelp{
+        text-decoration: none;
+        color: #000;
+      }
+      }
+    
+}
+
+
+}
+}
